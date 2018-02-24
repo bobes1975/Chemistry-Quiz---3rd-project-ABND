@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new"
+    tools:context="com.example.android.chemistryquiz.RadioButtonPart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/question_picture"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/quizImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dim16"
+                android:contentDescription="@string/question_picture"
+                android:scaleType="fitXY"
+                android:src="@drawable/intro1" />
+
+            <TextView
+                android:id="@+id/questionBoxNo"
+                style="@style/question_text"
+                android:layout_marginLeft="@dimen/dim16"
+                android:layout_marginRight="@dimen/dim16"
+                android:text="@string/question_number" />
+
+            <TextView
+                android:id="@+id/questionText"
+                style="@style/question_text"
+                android:layout_marginLeft="@dimen/dim16"
+                android:layout_marginRight="@dimen/dim16"
+                android:text="@string/question" />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim16"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/optionQuestion1"
+                    style="@style/RadioButton"
+                    android:text="@string/answer1" />
+
+                <RadioButton
+                    android:id="@+id/optionQuestion2"
+                    style="@style/RadioButton"
+                    android:text="@string/answer2" />
+
+                <RadioButton
+                    android:id="@+id/optionQuestion3"
+                    style="@style/RadioButton"
+                    android:text="@string/answer3" />
+
+                <RadioButton
+                    android:id="@+id/optionQuestion4"
+                    style="@style/RadioButton"
+                    android:text="@string/answer4" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/help_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/dim16"
+            android:onClick="help_Q1"
+            android:text="@string/help" />
+
+        <Button
+            android:id="@+id/question_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/layoutRadioButton"
+            android:layout_margin="@dimen/dim16"
+            android:onClick="next"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+
+</ScrollView>

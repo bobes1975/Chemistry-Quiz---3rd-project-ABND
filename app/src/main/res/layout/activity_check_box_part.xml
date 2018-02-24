@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_new"
+    tools:context="com.example.android.chemistryquiz.CheckBoxPart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layoutCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dim16">
+
+            <ImageView
+
+                android:id="@+id/quizImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dim16"
+                android:contentDescription="@string/question_picture"
+                android:scaleType="fitXY"
+                android:src="@drawable/intro1" />
+
+            <TextView
+                android:id="@+id/questionBoxNo"
+                style="@style/question_text"
+                android:layout_marginLeft="@dimen/dim16"
+                android:layout_marginRight="@dimen/dim16"
+                android:text="@string/question_number" />
+
+            <TextView
+                android:id="@+id/questionText"
+                style="@style/question_text"
+                android:layout_marginLeft="@dimen/dim16"
+                android:layout_marginRight="@dimen/dim16"
+                android:text="@string/question" />
+
+            <CheckBox
+                android:id="@+id/answerOption1"
+                style="@style/CheckBox"
+                android:text="@string/answer1" />
+
+            <CheckBox
+                android:id="@+id/answerOption2"
+                style="@style/CheckBox"
+                android:text="@string/answer2" />
+
+            <CheckBox
+                android:id="@+id/answerOption3"
+                style="@style/CheckBox"
+                android:text="@string/answer3" />
+
+            <CheckBox
+                android:id="@+id/answerOption4"
+                style="@style/CheckBox"
+                android:text="@string/answer4" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/help_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/dim16"
+            android:layout_marginTop="@dimen/dim16"
+            android:onClick="help"
+            android:text="@string/help" />
+
+        <Button
+            android:id="@+id/question_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/layoutCheckBox"
+            android:layout_marginEnd="@dimen/dim16"
+            android:onClick="next"
+            android:text="@string/next" />
+
+    </RelativeLayout>
+
+</ScrollView>

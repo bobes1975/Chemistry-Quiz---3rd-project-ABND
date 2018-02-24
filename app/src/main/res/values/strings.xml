@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Chemistry Quiz</string>
+
+    <string name="score">score</string>
+    <string name="help">help</string>
+    <string name="next">next</string>
+    <string name="reset">reset</string>
+    <string name="start">Start</string>
+    <string name="pokus">pokus</string>
+
+
+    <string name="question_picture">question picture</string>
+    <string name="question_number">Question Number</string>
+    <string name="question">Question</string>
+    <string name="answer1">answer1</string>
+    <string name="answer2">answer2</string>
+    <string name="answer3">answer3</string>
+    <string name="answer4">answer4</string>
+    <string name="write_correct_answer">Please, write your answer here.</string>
+    <string name="empty"></string>
+    <string name="result">result</string>
+
+    <string name="result_picture">result picture</string>
+    <string name="result1">If there was a million dollar prize for getting the questions right, you could be rich right now! Sadly, there is no cash, but you can take comfort in knowing you are the one people turn to when they need answers. You know your stuff! You even knew the answers to the tricky questions.</string>
+    <string name="result3">You know just enough chemistry to get by. This has served you well so far, but think how much more you could learn! Why should you care? For one thing, chemistry is everywhere in the world around you. Another reason to master chemistry is so you can do (and understand) cool science projects.</string>
+    <string name="result4">On the one hand, you will not be winning the Nobel Prize in Chemistry any time soon. On the other hand, you are probably an expert in another field! If you want to improve your knowledge, grab a kid\'s science text.</string>
+    <string name="result2">If there had been a million dollars on the line for knowing all the answers, you would have just missed the prize. It is okay to miss a question or two. That just shows you have other interests! You have a good command of chemistry.</string>
+    <string name="intro_picture">intro picture</string>
+    <string name="intro">Welcome to Chemistry Quiz. Chemistry is everywhere. Answer next few basic questions and test your knowledge from chemistry.</string>
+    <string name="intro1">For each correct answer you will receive 1 point. If you mark wrong answer in multiple choice part you will lose 1 point.</string>
+    <string name="title_activity_radio_button_part">RadioButtonPart</string>
+
+    <string name="finalMessagePart1">You received</string>
+    <string name="finalMessagePart2">points.</string>
+    <string name="finalMessagePart3">of 22 possible points.</string>
+</resources>
