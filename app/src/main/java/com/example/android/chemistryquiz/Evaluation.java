@@ -46,7 +46,7 @@ public class Evaluation extends AppCompatActivity {
     private void evaluation(final int newScore) {
 
         //1st place
-        if (newScore > 20) {
+        if (newScore > 14) {
             TextView evaluationText = (TextView) findViewById(R.id.evaluation);
             evaluationText.setText(R.string.result1);
 
@@ -54,7 +54,7 @@ public class Evaluation extends AppCompatActivity {
             trophyPicture.setImageResource(R.drawable.place1);
 
             //2nd place
-        } else if (newScore > 16) {
+        } else if (newScore > 12) {
             TextView evaluationText = (TextView) findViewById(R.id.evaluation);
             evaluationText.setText(R.string.result2);
 
@@ -62,7 +62,7 @@ public class Evaluation extends AppCompatActivity {
             trophyPicture.setImageResource(R.drawable.place2);
 
             //3rd place
-        } else if (newScore > 10) {
+        } else if (newScore > 9) {
             TextView evaluationText = (TextView) findViewById(R.id.evaluation);
             evaluationText.setText(R.string.result3);
 

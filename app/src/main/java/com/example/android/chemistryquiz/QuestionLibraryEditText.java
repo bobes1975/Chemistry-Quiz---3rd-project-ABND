@@ -10,9 +10,9 @@ public class QuestionLibraryEditText {
 // question No. @quizQuestionNumberEditText
 
     private String quizQuestionNumberEditText[] = {
-            "Question No. 14:",
-            "Question No. 15:",
-            "Question No. 16:",
+            "Question No. 8:",
+            "Question No. 9:",
+            "Question No. 10:",
     };
 
     // Question @quizQuestion EditText for part of quiz with EditBox part
@@ -29,9 +29,9 @@ public class QuestionLibraryEditText {
 
     // Picture No. @quizPictureEditText,
     private String quizPictureEditText[] = {
-            "picture14",
-            "picture15",
-            "picture16",
+            "picture8",
+            "picture9",
+            "picture10",
     };
 
     //  Options for Help button @urlHelpEditBox,

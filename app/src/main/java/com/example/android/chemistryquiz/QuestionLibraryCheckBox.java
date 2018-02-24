@@ -13,8 +13,7 @@ public class QuestionLibraryCheckBox {
             "Question No. 2:",
             "Question No. 3:",
             "Question No. 4:",
-            "Question No. 5:",
-            "Question No. 6:",
+
     };
 
     // Question @quizQuestionCheckBox for part of quiz with CheckBox part
@@ -22,8 +21,6 @@ public class QuestionLibraryCheckBox {
     private String quizQuestionCheckBox[] = {
             "Noble gases are inert because they have completed outer electron shells. Which of these elements isn't a noble gas?",
             "Which of these elements is a nonmetal?",
-            "Organic chemistry is the study of the compounds that make up living organisms. All organic molecules contain:",
-            "Three of the most common states of matter are solids, liquids, and gases. A liquid has:",
             "Which of the following elements are liquids around room temperature?",
             "Which of these following are amino acids?",
     };
@@ -32,8 +29,6 @@ public class QuestionLibraryCheckBox {
     private String quizChoicesCheckBox[][] = {
             {"Hydrogen", "Argon", "Chlorine", "Krypton"},
             {"Manganese", "Sulfur", "Germanium", "Berylium"},
-            {"Nitrogen", "Oxygen", "Hydrogen", "Carbon"},
-            {"a defined volume", "a definite shape", "no defined volume", "no defined shape"},
             {"Gallium", "Magnesium", "Bromine", "Mercury"},
             {"Tryptophan", "Leucine", "Tyrosine", "Adenine"},
     };
@@ -42,8 +37,6 @@ public class QuestionLibraryCheckBox {
     private String quizAnswerCheckBox[][] = {
             {"true", "false", "true", "false"},
             {"false", "true", "false", "true"},
-            {"false", "false", "true", "true"},
-            {"true", "false", "false", "true"},
             {"false", "false", "true", "true"},
             {"true", "true", "true", "false"},
     };
@@ -54,16 +47,13 @@ public class QuestionLibraryCheckBox {
             "picture2",
             "picture3",
             "picture4",
-            "picture5",
-            "picture6",
+
     };
 
     //  Options for Help button @urlHelpCheckBox,
     private String urlHelpCheckBox[] = {
             "https://en.wikipedia.org/wiki/Noble_gas",
             "https://en.wikipedia.org/wiki/Nonmetal",
-            "https://en.wikipedia.org/wiki/Organic_chemistry",
-            "hhttps://en.wikipedia.org/wiki/State_of_matter",
             "https://en.wikipedia.org/wiki/Chemical_element",
             "https://en.wikipedia.org/wiki/Amino_acid",
     };

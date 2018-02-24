@@ -122,6 +122,7 @@ public class EditTextPart extends AppCompatActivity {
 
     //next button
     public void next(View view) {
+
         int amountOfQuestions = 3;
         questionControlEditText();
         if (amountOfQuestions == questionNumber) {

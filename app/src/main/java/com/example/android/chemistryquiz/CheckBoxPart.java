@@ -151,7 +151,7 @@ public class CheckBoxPart extends AppCompatActivity {
 
         answerControlCheckBox();
 
-        int amountOfQuestions = 6;
+        int amountOfQuestions = 4;
 
         if (amountOfQuestions == questionNumber) {
             evaluation();

@@ -27,10 +27,10 @@
     <string name="result2">If there had been a million dollars on the line for knowing all the answers, you would have just missed the prize. It is okay to miss a question or two. That just shows you have other interests! You have a good command of chemistry.</string>
     <string name="intro_picture">intro picture</string>
     <string name="intro">Welcome to Chemistry Quiz. Chemistry is everywhere. Answer next few basic questions and test your knowledge from chemistry.</string>
-    <string name="intro1">For each correct answer you will receive 1 point. If you mark wrong answer in multiple choice part you will lose 1 point.</string>
+    <string name="intro1">For each correct answer you will receive 1 point. If you mark wrong answer in multiple choice part you will lose 1 point. You can receive max 15 points.</string>
     <string name="title_activity_radio_button_part">RadioButtonPart</string>
 
     <string name="finalMessagePart1">You received</string>
     <string name="finalMessagePart2">points.</string>
-    <string name="finalMessagePart3">of 22 possible points.</string>
+    <string name="finalMessagePart3">of 15 possible points.</string>
 </resources>

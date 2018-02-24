@@ -119,8 +119,6 @@ public class RadioButtonPart extends Activity {
                 }
             }
         });
-
-
     }
 
     //update question texts, choices and web link for help button
@@ -161,7 +159,7 @@ public class RadioButtonPart extends Activity {
     //next button
     public void next(View view) {
 
-        int amountOfQuestions = 7;
+        int amountOfQuestions = 3;
         if (amountOfQuestions == questionNumber) {
 
             evaluation();
