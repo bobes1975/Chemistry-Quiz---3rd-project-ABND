@@ -30,6 +30,9 @@
     <string name="intro1">For each correct answer you will receive 1 point. If you mark wrong answer in multiple choice part you will lose 1 point. You can receive max 15 points.</string>
     <string name="title_activity_radio_button_part">RadioButtonPart</string>
 
+    <string name="partialMessagePart1">Your current score:</string>
+
+
     <string name="finalMessagePart1">You received</string>
     <string name="finalMessagePart2">points.</string>
     <string name="finalMessagePart3">of 15 possible points.</string>

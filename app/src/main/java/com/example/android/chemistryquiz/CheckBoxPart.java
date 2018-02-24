@@ -5,9 +5,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -150,6 +152,7 @@ public class CheckBoxPart extends AppCompatActivity {
     public void next(View view) {
 
         answerControlCheckBox();
+        result(score);
 
         int amountOfQuestions = 4;
 
@@ -159,6 +162,22 @@ public class CheckBoxPart extends AppCompatActivity {
             updateQuestionCheckBox();
             unCheckAllCheckBox();
         }
+    }
+
+    //display current score after each question
+    public void result (int score){
+
+        String message = getString(R.string.partialMessagePart1) + "" + String.valueOf(score);
+
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
+
+        LinearLayout layout = (LinearLayout) toast.getView();
+
+        if (layout.getChildCount() > 0) {
+            TextView tv = (TextView) layout.getChildAt(0);
+            tv.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+        }
+        toast.show();
     }
 
     //after finishing quiz call evaluation

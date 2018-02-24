@@ -5,8 +5,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -156,6 +158,22 @@ public class RadioButtonPart extends Activity {
         startActivity(launchBrowser);
     }
 
+    //display current score after each question
+    public void result (int score){
+
+        String message = getString(R.string.partialMessagePart1) + "" + String.valueOf(score);
+
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
+
+        LinearLayout layout = (LinearLayout) toast.getView();
+
+        if (layout.getChildCount() > 0) {
+            TextView tv = (TextView) layout.getChildAt(0);
+            tv.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+        }
+        toast.show();
+    }
+
     //next button
     public void next(View view) {
 
@@ -164,6 +182,9 @@ public class RadioButtonPart extends Activity {
 
             evaluation();
         } else {
+
+            result(score);
+
             updateQuestionRadioButton();
         }
     }
